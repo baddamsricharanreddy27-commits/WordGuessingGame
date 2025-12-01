@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Word Guessing Game</title>
+    <link rel="stylesheet" href="charan 3css.css">
+</head>
+<body>
+    <div class="game-container">
+        <h2>Word Guessing Game</h2>
+        <p id="hint"></p>
+
+        <div id="wordDisplay" class="word"></div>
+
+        <input type="text" id="letterInput" maxlength="1" placeholder="Enter a letter">
+        <button onclick="guessLetter()">Guess</button>
+
+        <p>Wrong Letters: <span id="wrongLetters"></span></p>
+
+        <button onclick="resetGame()" class="reset-btn">New Word</button>
+    </div>
+
+    <script src="charan java 3.js"></script>
+</body>
+</html>

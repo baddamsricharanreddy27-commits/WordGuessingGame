@@ -1,0 +1,39 @@
+body {
+    font-family: Arial;
+    background: #f0f0f0;
+}
+
+.game-container {
+    width: 350px;
+    margin: 70px auto;
+    background: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 0 10px yellow;
+}
+
+.word {
+    font-size: 30px;
+    letter-spacing: 10px;
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+input {
+    padding: 8px;
+    width: 100px;
+    font-size: 16px;
+}
+
+button {
+    padding: 8px 15px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.reset-btn {
+    background: #007bff;
+    color: white;
+    border: none;
+}
